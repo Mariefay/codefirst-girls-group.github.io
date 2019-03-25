@@ -1,0 +1,57 @@
+<!Doctype HTML>
+<html>
+  <head>
+    <title>Travelling Alone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+      body {
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+      header {
+        text-align: center;
+      }
+      ul {
+        padding: 10px
+      }
+      li {
+        display: inline;
+        padding: 0px 80px 0px 80px;
+        font-size: 20px;
+      }
+      a {
+        color: darkblue;
+      }
+      div {
+        display: block;
+        float:left;
+        width: 300px;
+        height: 300px;
+        padding: 70px 50px 100px 50px;
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Travelling alone has never been easier ;)</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Find Your Destination</a></li>
+        <li><a href="#">Our Tips</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </header>
+    <p>
+    Welcome to our Website! Here you will find your perfect travel destination and our top tips for it! Don't like travelling alone? You can always find a partner by dropping a message in the <a href="#">forum</a>!
+    </p>
+    </br>
+      <div class="first-option" style="margin-right: 200px; margin-left: 100px">
+        <p style="text-align:center">I know where I am going!</p>
+      </div>
+      <div class="second-option" style="margin-left: 200px; margin-right: 100px">
+        <p style="text-align:center">Help me to find the perfect place!</p>
+      </div>
+  </body>
+</html>
