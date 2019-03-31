@@ -1,0 +1,94 @@
+#mainNav {
+    border-color: white;
+    background-color: #cce6ff;
+    width: 100%;
+    margin: 0px;
+
+}
+
+#navbarResponsive {
+    font-size: 20px;
+    padding: 4px 1px 4px 1px;
+
+}
+
+.navbar-brand {
+  font-size: 35px;
+  padding: 15px 1px 4px 1px;
+  font-weight: bold;
+  font-family: fantasy;
+
+}
+
+div {
+  display: block;
+}
+
+
+center{
+  padding: 200px 10px 400px 10px;
+  background-image: url(BackgroundImageHome.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: monospace;
+  color: black;
+  font-weight: lighter;
+}
+
+.homepagechoices{
+  background-color: #cce6ff;
+  height: 750px;
+
+}
+
+div.question{
+  height:40px;
+  text-align: center;
+  padding: 100px 10px 125px 10px;
+}
+
+h2{
+  font-family: monospace;
+  color: black;
+  font-weight: lighter;
+}
+
+div .firstblock {
+  display: block;
+  float:left;
+  width: 400px;
+  height: 400px;
+  background-image: url(https://memegenerator.net/img/instances/400x/58909082.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+div .secondblock {
+  display: block;
+  float:right;
+  width: 400px;
+  height: 400px;
+  background-image:url(https://i.imgur.com/JYzsWeB.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.footer{
+  height: 100px;
+  background-color: #0099e6;
+  width: 100%;
+  margin: 0px;
+}
+
+h5{
+  padding: 45px 10px 45px 10px;
+  font-size: 15px;
+  text-align: center;
+  font-family: monospace;
+  color: black;
+  font-weight: lighter;
+}
