@@ -25,7 +25,7 @@ div {
 }
 
 
-center{
+center {
   padding: 200px 10px 400px 10px;
   background-image: url(BackgroundImageHome.jpg);
   background-size: cover;
@@ -107,36 +107,4 @@ h5{
   font-family: monospace;
   color: black;
   font-weight: lighter;
-}
-
-/* Our Tips page */
-
-header {
-  padding: 200px 10px 400px 10px;
-  background-image: url(https://www.qbe.com/au/-/media/Australia/Images/travel-insurance/J9962travel%20claims750%20x550.png?h=550&la=en&w=750&hash=0CD78A3585E919F1F136263EBF36F282D751BFD7);
-  background-size: cover;
-  color: white;
-  text-align: center;
-  font-size: 20px;
-}
-
-/* About us page */
-
-div.us{
-  background-color: #ffb366;
-  color:white;
-  margin-bottom: 50px;
-  padding: 30px 10px 400px 10px;
-  border-radius: 50px;
-  opacity: 1;
-
-}
-
-div .References{
-  background-color: #cce6ff;
-  background-size: cover;
-  color:white;
-  padding: 30px 10px 400px 10px;
-  border-radius: 50px;
-  opacity: 1;
 }
