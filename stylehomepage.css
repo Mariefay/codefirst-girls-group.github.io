@@ -1,5 +1,5 @@
 #mainNav {
-    border-color: white;
+    border-bottom: 3px solid #1ab2ff;
     background-color: #cce6ff;
     width: 100%;
     margin: 0px;
@@ -34,12 +34,12 @@ center{
 h1 {
   font-size: 40px;
   font-family: monospace;
-  color: black;
+  color: black white;
   font-weight: lighter;
 }
 
 .homepagechoices{
-  background-color: #cce6ff;
+  background-color:#1ab2ff;
   height: 750px;
 
 }
@@ -60,10 +60,22 @@ div .firstblock {
   display: block;
   float:left;
   width: 400px;
-  height: 400px;
+  height: 430px;
+  margin: 5px 5px 5px 5px;
   background-image: url(https://memegenerator.net/img/instances/400x/58909082.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 50px;
+
+}
+
+div .firstblock:hover {
+  opacity: 0.6;
+
+}
+
+div .secondblock:hover {
+  opacity: 0.6;
 
 }
 
@@ -71,17 +83,21 @@ div .secondblock {
   display: block;
   float:right;
   width: 400px;
-  height: 400px;
+  height: 430px;
+  margin: 5px 5px 5px 5px;
   background-image:url(https://i.imgur.com/JYzsWeB.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 50px;
 }
 
 .footer{
   height: 100px;
-  background-color: #0099e6;
+  background-color: #cce6ff;
   width: 100%;
   margin: 0px;
+  position:absolute;
+
 }
 
 h5{
@@ -91,4 +107,36 @@ h5{
   font-family: monospace;
   color: black;
   font-weight: lighter;
+}
+
+/* Our Tips page */
+
+header {
+  padding: 200px 10px 400px 10px;
+  background-image: url(https://www.qbe.com/au/-/media/Australia/Images/travel-insurance/J9962travel%20claims750%20x550.png?h=550&la=en&w=750&hash=0CD78A3585E919F1F136263EBF36F282D751BFD7);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* About us page */
+
+div.us{
+  background-color: #ffb366;
+  color:white;
+  margin-bottom: 50px;
+  padding: 30px 10px 400px 10px;
+  border-radius: 50px;
+  opacity: 1;
+
+}
+
+div .References{
+  background-color: #cce6ff;
+  background-size: cover;
+  color:white;
+  padding: 30px 10px 400px 10px;
+  border-radius: 50px;
+  opacity: 1;
 }
