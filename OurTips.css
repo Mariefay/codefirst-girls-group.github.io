@@ -1,0 +1,53 @@
+
+#mainNav {
+    border-bottom: 3px solid #1ab2ff;
+    background-color: #cce6ff;
+    width: 100%;
+    margin: 0px;
+
+}
+
+#navbarResponsive {
+    font-size: 20px;
+    padding: 4px 1px 4px 1px;
+
+}
+
+.navbar-brand {
+  font-size: 35px;
+  padding: 15px 1px 4px 1px;
+  font-weight: bold;
+  font-family: fantasy;
+
+}
+
+div {
+  display: block;
+}
+header {
+  padding: 200px 10px 400px 10px;
+  background-image: url(https://www.qbe.com/au/-/media/Australia/Images/travel-insurance/J9962travel%20claims750%20x550.png?h=550&la=en&w=750&hash=0CD78A3585E919F1F136263EBF36F282D751BFD7);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.footer{
+  height: 100px;
+  background-color: #cce6ff;
+  width: 100%;
+  margin: 0px;
+  position:absolute;
+
+}
+
+h5{
+  padding: 45px 10px 45px 10px;
+  font-size: 15px;
+  text-align: center;
+  font-family: monospace;
+  color: black;
+  font-weight: lighter;
+}
