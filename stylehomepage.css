@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 #mainNav {
     border-bottom: 3px solid #1ab2ff;
     background-color: #cce6ff;
@@ -16,9 +17,10 @@
   font-size: 35px;
   padding: 15px 1px 4px 1px;
   font-weight: bold;
-  font-family: fantasy;
+  font-family: 'Indie Flower';
 
 }
+
 
 div {
   display: block;
