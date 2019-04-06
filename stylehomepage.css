@@ -4,13 +4,13 @@
     background-color: #cce6ff;
     width: 100%;
     margin: 0px;
-
+    font-family: 'Indie Flower';
 }
 
 #navbarResponsive {
     font-size: 20px;
     padding: 4px 1px 4px 1px;
-
+    font-family: 'Indie Flower';
 }
 
 .navbar-brand {
@@ -35,7 +35,7 @@ center {
 
 h1 {
   font-size: 40px;
-  font-family: monospace;
+  font-family: 'Indie Flower';
   color: black white;
   font-weight: lighter;
 }
@@ -109,4 +109,5 @@ h5{
   font-family: monospace;
   color: black;
   font-weight: lighter;
+  position: absolute;
 }
