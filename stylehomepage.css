@@ -1,10 +1,336 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  z-index: 0;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#button {
+  display: inline-block;
+  background-color: rgba(999,999,999,5%);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s;
+  z-index: 1000;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.6);
+}
+#button:active {
+  background-color: #555;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+section#invitation {
+  position: relative;
+  background-color: rgba(0,0,0,10%);
+  height: 10vh;
+  min-height: 10rem;
+  width: 100%;
+}
+
+section#invitation .container {
+  position: relative;
+  z-index: 2;
+}
+
+section#invitation .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+section#Latvia {
+  position: relative;
+  background-color: rgba(0,0,0,10%);
+  height: 50vh;
+  min-height: 10rem;
+  width: 100%;
+}
+
+section#Latvia .container-fluid {
+  position: relative;
+  z-index: 2;
+}
+
+section#Latvia .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+section#Latvia img#RigaHome {
+  border-radius:50%;
+  border: 2px solid white;
+  display: block;
+  float: left;
+  margin-left: 100px;
+}
+
+section#Latvia img#RigaHome:hover {
+  opacity: 0.3;
+  transition: 0.3s ease;
+}
+
+section#Latvia .RigaText {
+  position: relative;
+  margin-left: 400px;
+  padding-top: 40px;
+  overflow: visible;
+}
+section#Latvia .RigaLearnMore {
+  position: relative;
+  display: block;
+  float: right;
+  overflow: visible;
+}
+section#Latvia a.Riga{
+  color: green;
+}
+section#France {
+  position: relative;
+  background-color: rgba(0,0,0,10%);
+  height: 50vh;
+  min-height: 10rem;
+  width: 100%;
+}
+
+section#France .container-fluid {
+  position: relative;
+  z-index: 2;
+}
+
+section#France .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+section#France img#LyonHome {
+  border-radius:50%;
+  border: 2px solid white;
+  display: block;
+  float: left;
+  margin-left: 100px;
+}
+
+section#France img#LyonHome:hover {
+  opacity: 0.3;
+  transition: 0.3s ease;
+}
+
+section#France .LyonText {
+  position: relative;
+  margin-left: 400px;
+  padding-top: 40px;
+  overflow: visible;
+}
+section#France .LyonLearnMore {
+  position: relative;
+  display: block;
+  float: right;
+  overflow: visible;
+}
+section#France a.Lyon{
+  color: green;
+}
+section#Peru {
+  position: relative;
+  background-color: rgba(0,0,0,10%);
+  height: 50vh;
+  min-height: 10rem;
+  width: 100%;
+}
+
+section#Peru .container-fluid {
+  position: relative;
+  z-index: 2;
+}
+
+section#Peru .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+section#Peru img#CuscoHome {
+  border-radius:50%;
+  border: 2px solid white;
+  display: block;
+  float: left;
+  margin-left: 100px;
+}
+
+img#divider {
+border:0;
+display:block;
+margin:auto;
+width:50%;
+opacity:0.1;
+}
+section#Peru img#CuscoHome:hover {
+  opacity: 0.3;
+  transition: 0.3s ease;
+}
+
+section#Peru .CuscoText {
+  position: relative;
+  margin-left: 400px;
+  padding-top: 40px;
+  overflow: visible;
+}
+section#Peru .CuscoLearnMore {
+  position: relative;
+  display: block;
+  float: right;
+  overflow: visible;
+}
+section#Peru a.Cusco{
+  color: green;
+}
+
+footer {
+  position: absolute;
+  background-color: rgba(0,0,0);
+  height: 20vh;
+  min-height: 5rem;
+  width: 100%;
+}
+
+footer .container-fluid {
+  position: relative;
+  z-index: 2;
+}
+
+footer .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+footer dl.Authors{
+  position: relative;
+  display: block;
+  float:left;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+footer dd.Authors{
+  position: relative;
+  margin-left: 70px;
+}
+footer dl.Thanks{
+  position: relative;
+  display: block;
+  float:left;
+  margin-left: 200px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+footer dd.Thanks{
+  position: relative;
+  margin-left: 70px;
+}
+footer dl.FindUs{
+  position: relative;
+  display: block;
+  margin-left: 800px;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+footer dd.FindUs{
+  position: relative;
+  margin-left: 70px;
+}
 #mainNav {
-    border-bottom: 3px solid #1ab2ff;
-    background-color: #cce6ff;
+  position:fixed;
+    border-bottom: 2px solid grey;
+    background-color: rgba(999,999,999, 30%);
+    top:0;
     width: 100%;
     margin: 0px;
     font-family: 'Indie Flower';
+    transition: top 0.1s;
 }
 
 #navbarResponsive {
@@ -21,93 +347,31 @@
 
 }
 
-
 div {
   display: block;
-}
-
-
-center {
-  padding: 200px 10px 400px 10px;
-  background-image: url(BackgroundImageHome.jpg);
-  background-size: cover;
 }
 
 h1 {
   font-size: 40px;
   font-family: 'Indie Flower';
-  color: black white;
+  color: white;
   font-weight: lighter;
 }
 
-.homepagechoices{
-  background-color:#1ab2ff;
-  height: 750px;
-
-}
-
-div.question{
-  height:40px;
-  text-align: center;
-  padding: 100px 10px 125px 10px;
+ul {
+  list-style: circle;
+  color: white;
 }
 
 h2{
-  font-family: monospace;
-  color: black;
+  font-family: 'Indie Flower';
+  font-size: 30px;
+  color: white;
   font-weight: lighter;
-}
-
-div .firstblock {
-  display: block;
-  float:left;
-  width: 400px;
-  height: 430px;
-  margin: 5px 5px 5px 5px;
-  background-image: url(https://memegenerator.net/img/instances/400x/58909082.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 50px;
-
-}
-
-div .firstblock:hover {
-  opacity: 0.6;
-
-}
-
-div .secondblock:hover {
-  opacity: 0.6;
-
-}
-
-div .secondblock {
-  display: block;
-  float:right;
-  width: 400px;
-  height: 430px;
-  margin: 5px 5px 5px 5px;
-  background-image:url(https://i.imgur.com/JYzsWeB.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 50px;
-}
-
-.footer{
-  height: 100px;
-  background-color: #cce6ff;
-  width: 100%;
-  margin: 0px;
-  position:absolute;
-
 }
 
 h5{
-  padding: 45px 10px 45px 10px;
   font-size: 15px;
-  text-align: center;
-  font-family: monospace;
-  color: black;
-  font-weight: lighter;
-  position: absolute;
+  font-family: "Indie Flower";
+  color: white;
 }
