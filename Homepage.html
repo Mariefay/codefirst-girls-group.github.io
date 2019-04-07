@@ -8,16 +8,14 @@
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
       <link rel="stylesheet" href="stylehomepage.css">
       <title>Travelling Alone</title>
-      <style>
-
-
-
-      </style>
 
   </head>
   <body>
+<<<<<<< HEAD
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container-fluid">
@@ -44,46 +42,235 @@
               <a class="nav-link js-scroll-trigger" href="Forum.html">Forum</a>
             </li>
           </ul>
+=======
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container-fluid">
+          <a class="navbar-brand js-scroll-trigger" href="Homepage.html">Travelling Alone</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Find your destination</a>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Riga (Latvia)</a>
+                      <a class="dropdown-item" href="#">Lyon (France)</a>
+                      <a class="dropdown-item" href="#">Cusco (Peru)</a>
+                  </div>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="OurTips.html">Our Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="Aboutus.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#invitation">Get in touch</a>
+              </li>
+            </ul>
+          </div>
+>>>>>>> 53466ea9b8e2a306c19e5323bc8b5dcddbf1ecc1
+        </div>
+      </nav>
+      <header>
+      <a id="button"></a>
+      <div class="overlay"></div>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3">Are you planning a trip?</h1>
+            <h1 class="display-5">Your adventure starts here!</h1>
+          </div>
         </div>
       </div>
-    </nav>
-
-    <center class=" text-center text-black">
-        <div class="container">
+    </header>
+    <video autoplay loop id="video-background" muted plays-inline>
+      <source src="Rock.mp4" type="video/mp4">
+    </video>
+    <section id="invitation">
+      <div class="overlay"></div>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            </br>
+            <h1 class="display-4">Discover new places with locals:</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Latvia">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-md-3 col-lg-2">
+            <img id="RigaHome" src="Riga.jpg">
+          </div>
+          <div class="col-sm-9 col-md-9 col-lg-10">
+            <div id="RigaText">
+              <ul>
+                <li><h2>Enjoy the sea, the forests and the fascinating architecture of X-XXI century Europe in one place</h2></li>
+                <li><h2>Try the one and only sweet&sour bread</h2></li>
+                <li><h2>See two Unesco Heritage sites</h2></li>
+                <li><h2>... and generally enjoy the views</h2></li>
+              </ul>
+            </div>
+          </div>
+         </div>
+         <div class="row">
+           <div class="col-sm-12 col-md-12 col-lg-12">
+            <div id="RigaLearnMore">
+              <h2>Interested? Explore the opportunities <a class="Riga" href="#">here</a></h2>
+            </div>
+           </div>
+          </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <div id="divider">
+                  <img id="divider" src="divider.png" height="100%" width="100%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="France">
+          <div class="overlay"></div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-3 col-md-3 col-lg-2">
+                    <img id="LyonHome" src="Lyon.jpg">
+                  </div>
+                  <div class="col-sm-9 col-md-9 col-lg-10">
+                    <div id="LyonText">
+                      <ul>
+                        <li><h2>Enjoy shopping in the biggest mall in Europe</h2></li>
+                        <li><h2>Have a meal in one of many Michelin star restaurants</h2></li>
+                        <li><h2>See the Interpal and Euronews headquarters</h2></li>
+                        <li><h2>... and immerse in French culture</h2></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="LyonLearnMore">
+                      <h2>Interested? Explore the opportunities <a class="Lyon" href="#">here</a></h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="divider">
+                      <img id="divider" src="divider.png">
+                    </div>
+                  </div>
+              </div>
+            </div>
+      </section>
+    <section id="Peru">
+      <div class="overlay"></div>
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-md-12">
-              <h1>
-                Welcome to our our website ! Here you can find out more about the best destinations in the world and look for someone to travel with you ;)
-              </h1>
+            <div class="col-sm-3 col-md-3 col-lg-2">
+              <img id="CuscoHome" src="Cusco.jpg">
+            </div>
+            <div class="col-sm-9 col-md-9 col-lg-10">
+              <div id="CuscoText">
+                <ul>
+                  <li><h2>Have a walk home with alpakas</h2></li>
+                  <li><h2>Experience the stunning view in a trip to Machu Picchu</h2></li>
+                  <li><h2>Find the most unique and story-telling crafts you can ever imagine</h2></li>
+                  <li><h2>... and just have a great time in beautiful weather</h2></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div id="CuscoLearnMore">
+                <h2>Interested? Explore the opportunities <a class="Cusco" href="#">here</a></h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div id="divider">
+                <img id="divider" src="divider.png" height="100%" width="100%">
+                <br>
+                <br>
+              </div>
             </div>
           </div>
         </div>
-    </center>
-
-    <div class="homepagechoices">
-      <div class="container">
-        <div class="question">
-          <h2>Any idea where you want to go?</h2>
+      </section>
+      <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-md-3 col-lg-3">
+            <dl id="Authors">
+              <dt>Authors</dt>
+                <dd class="Authors">Lizbeth Hancco</dd>
+                <dd class="Authors">Marie Fayard</dd>
+                <dd class="Authors">Jelizaveta Marcenko</dd>
+            </dl>
+          </div>
+          <div class="col-sm-3 col-md-3 col-lg-3">
+            <dl class="Thanks">
+              <dt>Thank you</dt>
+                <dd class="Thanks">CodeFirst:Girls!</dd>
+                <dd class="Thanks">Manchester</dd>
+            </dl>
+          </div>
+          <div class="col-sm-3 col-md-3 col-lg-3">
+            <dl class="FindUs">
+              <dt>Find Us</dt>
+                <dd class="FindUs">Somewhere here</dd>
+                <dd class="FindUs">Manchester</dd>
+                <dd class="FindUs">United Kingdom</dd>
+                <dd class="FindUs">+44 (0) 1234 1234</dd>
+            </dl>
+          </div>
+          <div class="col-sm-3 col-md-3 col-lg-3">
+            <dl class="Social">
+              <dt>Social</dt>
+                <dd class="FindUs"><a href="http://facebook.com"><i class="fab fa-facebook-square"></i></a></dd>
+                <dd class="FindUs"><a href="http://twitter.com"><i class="fab fa-twitter-square"></i></a></dd>
+                <dd class="FindUs"><a href="http://instagram.com"><i class="fab fa-instagram"></a></i></dd>
+                <dd class="FindUs"><a href="http://slack.com"><i class="fab fa-slack"></a></i></dd>
+            </dl>
+          </div>
         </div>
       </div>
-      <div class="container">
-        <div class="firstblock">
-        </div>
-        <div class="secondblock">
-        </div>
-      </div>
-    </div>
+    </footer>
+  <script type="text/javascript">
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (1 > currentScrollPos) {
+      document.getElementById("mainNav").style.top = "0";
+    } else {
+      document.getElementById("mainNav").style.top = "-150px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
 
+  jQuery(document).ready(function() {
 
-    <div class="footer">
-      <div class="container">
-        <div class="credits">
-          <h5>All references and useful informations in the "About us" section of the website. Go CodeFirst: girls !</h5>
-        </div>
-      </div>
-    </div>
+  var btn = $('#button');
 
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
 
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+
+});
+  </script>
 
 
   </body>
