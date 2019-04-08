@@ -113,9 +113,8 @@ section#Latvia .container-fluid {
   width: 100%;
   background-color: black;
   opacity: 0.9;
-  z-index: 1;
+  z-index: -1;
 }
-
 
 section#Latvia img#RigaHome {
   border-radius:50%;
