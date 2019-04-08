@@ -76,6 +76,7 @@ header .overlay {
 }
 .btn{
   font-size: 30px;
+  color:#95a2a2;
 }
 section#invitation {
   position: relative;
