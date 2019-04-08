@@ -298,6 +298,78 @@ section#France #LyonLearnMore {
 section#France a.Lyon{
   color: green;
 }
+
+section#France img#AlbertaIela {
+  border-radius:25%;
+  border: 1px solid white;
+  display: block;
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 40px;
+  width:240px;
+  height:240px;
+  overflow: visible;
+}
+section#France #AlbertaIelaText {
+  position: relative;
+  margin-left: 150px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+@media only screen and (max-width:575px) {
+  section#France #AlbertaIelaText{
+    margin-left: 0px;
+  }
+}
+
+section#France img#Vecriga {
+  border-radius:25%;
+  border: 1px solid white;
+  display: block;
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 40px;
+  width:240px;
+  height:240px;
+  overflow: visible;
+}
+section#France #VecrigaText {
+  position: relative;
+  margin-left: 150px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+@media only screen and (max-width:575px) {
+  section#France #VecrigaText{
+    margin-left: 0px;
+  }
+}
+
+section#France img#RigasTirgus {
+  border-radius:25%;
+  border: 1px solid white;
+  display: block;
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 40px;
+  width:240px;
+  height:240px;
+  overflow: visible;
+}
+section#France #RigasTirgusText {
+  position: relative;
+  margin-left: 150px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+@media only screen and (max-width:575px) {
+  section#Latvia #RigasTirgusText{
+    margin-left: 0px;
+  }
+}
 section#France div#divider {
   position: relative;
   display:block;
@@ -366,6 +438,77 @@ section#Peru #CuscoLearnMore {
 }
 section#Peru a.Cusco{
   color: green;
+}
+section#Peru img#AlbertaIela {
+  border-radius:25%;
+  border: 1px solid white;
+  display: block;
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 40px;
+  width:240px;
+  height:240px;
+  overflow: visible;
+}
+section#Peru #AlbertaIelaText {
+  position: relative;
+  margin-left: 150px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+@media only screen and (max-width:575px) {
+  section#Peru #AlbertaIelaText{
+    margin-left: 0px;
+  }
+}
+
+section#Peru img#Vecriga {
+  border-radius:25%;
+  border: 1px solid white;
+  display: block;
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 40px;
+  width:240px;
+  height:240px;
+  overflow: visible;
+}
+section#Peru #VecrigaText {
+  position: relative;
+  margin-left: 150px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+@media only screen and (max-width:575px) {
+  section#Peru #VecrigaText{
+    margin-left: 0px;
+  }
+}
+
+section#Peru img#RigasTirgus {
+  border-radius:25%;
+  border: 1px solid white;
+  display: block;
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 40px;
+  width:240px;
+  height:240px;
+  overflow: visible;
+}
+section#Peru #RigasTirgusText {
+  position: relative;
+  margin-left: 150px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+@media only screen and (max-width:575px) {
+  section#Peru #RigasTirgusText{
+    margin-left: 0px;
+  }
 }
 section#Peru div#divider {
   position: relative;
