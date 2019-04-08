@@ -152,7 +152,7 @@ section#AboutUsInfo img#AboutUsImg {
   border-radius:50%;
   border: 2px solid white;
   max-width: 550px;
-  width:auto;
+  width:100%;
   height:auto;
   overflow: visible;
 }
