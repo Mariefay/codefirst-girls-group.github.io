@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
+
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: white;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -19,6 +20,10 @@ body {
   height: auto;
   overflow: hidden;
   z-index: 0;
+}
+.btn-link {
+  color:green;
+  border-radius: 0;
 }
 header {
   position: relative;
@@ -226,7 +231,6 @@ section#Latvia #RigasTirgusText {
     margin-left: 0px;
   }
 }
-
 section#Latvia div#divider {
   position: relative;
   display:block;
@@ -238,7 +242,7 @@ section#Latvia div#divider {
 
 section#Latvia img#divider {
   margin:0;
-  width:75%;
+  width:50%;
   opacity:0.1;
 }
 section#France {
@@ -308,7 +312,7 @@ section#France div#divider {
 
 section#France img#divider {
 margin:0;
-width:75%;
+width:50%;
 opacity:0.1;
 }
 section#Peru {
@@ -377,7 +381,7 @@ section#Peru div#divider {
 
 section#Peru img#divider {
 margin:0;
-width:75%;
+width:50%;
 opacity:0.1;
 }
 
@@ -457,7 +461,6 @@ footer dd.Social{
     font-family: 'Indie Flower';
     transition: top 0.1s;
 }
-
 #navbarResponsive {
     font-size: 20px;
     padding: 4px 1px 4px 1px;

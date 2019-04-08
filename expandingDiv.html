@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width initiale-scale=1.0">
+
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <link rel="stylesheet" href="stylehomepage2.css">
+      <title>Travelling Alone</title>
+
+  </head>
+  <body>
+    <section id="Latvia">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 col-md-3 col-lg-2">
+            <img id="RigaHome" src="Riga.jpg">
+          </div>
+          <div class="col-sm-9 col-md-9 col-lg-10">
+            <div id="RigaText">
+              <ul>
+                <li><h2>Enjoy the sea, the forests and the fascinating architecture of X-XXI century Europe in one place</h2></li>
+                <li><h2>Try the one and only sweet&sour bread</h2></li>
+                <li><h2>See two Unesco Heritage sites</h2></li>
+                <li><h2>... and generally enjoy the views</h2></li>
+              </ul>
+            </div>
+          </div>
+         </div>
+         <div class="row">
+           <div class="col-sm-12 col-md-12 col-lg-12">
+            <div id="RigaLearnMore">
+              <h2>Interested? Explore the opportunities   <button type="button" class="btn btn-link btn-lg" data-toggle="collapse" data-target="#RigaContent">here</button></h2>
+            </div>
+            </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <div id="RigaContent" class="collapse">
+                    <h6>Welcome to Rīga, Latvia</h6>
+                    <p>The Gothic spires that dominate Rīga's cityscape might suggest austerity, but it is the flamboyant art nouveau that forms the flesh and the spirit of this vibrant cosmopolitan city, the largest of all three Baltic capitals.
+                      Like all northerners, it is quiet and reserved on the outside, but there is some powerful chemistry going on inside its hip bars, modern art centres and the kitchens of its cool experimental restaurants.</p>
+                    <h6>Top experiences in Rīga</h6>
+                    <div class="row">
+                      <div class="col-sm-3 col-md-3 col-lg-2">
+                        <img id="AlbertaIela" src="Albertaiela.jpg">
+                      </div>
+                      <div class="col-sm-9 col-md-9 col-lg-10">
+                        <div id="AlbertaIelaText">
+                          <h4>Alberta iela</h4>
+                          <p>Enjoy the walk on Alberta street - the Art Nouveau area in the heart of the city.</p>
+                          <p>It's breathtaking views will surely stay in your memories for years! Plus, you can always enjoy a cup of tea or a pint in one of the extraordinary restaurants on the street!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-3 col-md-3 col-lg-2">
+                    <img id="Vecriga" src="Vecriga.jpg">
+                  </div>
+                  <div class="col-sm-9 col-md-9 col-lg-10">
+                    <div id="VecrigaText">
+                      <h4>Vecrīga</h4>
+                      <p>The Old Town is a unique place in Europe: many buildings were build in 1200s! So you can learn the architecture history simply by taking a walk! There is absolutely no surprise Vecrīga was included in the Unesco World Heritage list :)</p>
+                      <p>And of course, the amount of cafes and shops will never leave you unsatisfied.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-3 col-md-3 col-lg-2">
+                    <img id="RigasTirgus" src="RigasTirgus.jpg">
+                  </div>
+                  <div class="col-sm-9 col-md-9 col-lg-10">
+                    <div id="RigasTirgusText">
+                      <h4>Riga Central Market</h4>
+                      <p>Architecturally-imposing food pavilions, built in the 1920s, are Riga Central Market’s calling card. Originally used as military airship hangars, they were later transformed into market venues.</p>
+                      <p>Isn't that fascinating? The market does not only offer an extraordinary range of products: food, clothes, supplies, but has played an important role in history!</p>
+                    </div>
+                  </div>
+                </div>
+             </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <div id="divider">
+                  <img id="divider" src="divider.png" height="100%" width="100%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+
+        }
+        </script>
